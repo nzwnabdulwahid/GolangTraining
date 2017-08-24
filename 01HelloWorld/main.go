@@ -1,6 +1,14 @@
 package main
 import "fmt"
+//import "./intro"
 
+
+const name string = "Niezwan"
+
+const (
+	fullname = "Niezwan Abdul Wahid"
+	realAge = 24
+)
 
 func main() {
 	fmt.Println("Hello World")
@@ -22,5 +30,15 @@ func main() {
 
 	// %v is default value
 	// %T is type
+
+	//Constant
+	const age = 23
+	fmt.Printf("%v is a constant and also %v \n", name, age)
+
+	//Print from multiple declaration
+	fmt.Printf("%v is a constant and also %v \n", fullname, realAge)
+	//Explain_IOTA()
+
+
 
 }
